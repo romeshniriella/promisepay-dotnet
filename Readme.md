@@ -1,5 +1,8 @@
 #.NET SDK - PromisePay API
 
+This is a fork from original. 
+I have removed log4net as I don't need it and updated all the packages.
+
 [![Join the chat at https://gitter.im/PromisePay/promisepay-dotnet](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PromisePay/promisepay-dotnet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![NuGet version](https://badge.fury.io/nu/PromisePay.API.NET.svg)](https://badge.fury.io/nu/PromisePay.API.NET) [![Build Status](https://travis-ci.org/PromisePay/promisepay-dotnet.svg)](https://travis-ci.org/PromisePay/promisepay-dotnet) [![Code Climate](https://codeclimate.com/github/PromisePay/promisepay-dotnet/badges/gpa.svg)](https://codeclimate.com/github/PromisePay/promisepay-dotnet) 
