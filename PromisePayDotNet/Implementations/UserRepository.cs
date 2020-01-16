@@ -15,9 +15,7 @@ namespace PromisePayDotNet.Implementations
         public UserRepository(IRestClient client) : base(client)
         {
         }
-
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+         
         #region public methods
 
         public IEnumerable<User> ListUsers(int limit = 10, int offset = 0)

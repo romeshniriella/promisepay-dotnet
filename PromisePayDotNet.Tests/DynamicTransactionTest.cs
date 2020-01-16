@@ -90,13 +90,6 @@ namespace PromisePayDotNet.Tests
 
             Assert.NotNull(accounts);
             Assert.AreEqual("930a7f78-6bf6-4f33-8cfc-b82c787b5f83", accounts["id"]);
-        }
-
-        [Test]
-        [Ignore]
-        public void ShowTransactionPayPalAccount()
-        {
-            Assert.Fail("No fixture yet!");
-        }
+        } 
     }
 }

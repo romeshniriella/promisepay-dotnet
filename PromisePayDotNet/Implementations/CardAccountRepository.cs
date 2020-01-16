@@ -13,9 +13,7 @@ namespace PromisePayDotNet.Implementations
         public CardAccountRepository(IRestClient client) : base(client)
         {
         }
-
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+         
         public CardAccount GetCardAccountById(string cardAccountId)
         {
             AssertIdNotNull(cardAccountId);

@@ -14,9 +14,7 @@ namespace PromisePayDotNet.Implementations
         public FeeRepository(IRestClient client) : base(client)
         {
         }
-
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+         
         public IEnumerable<Fee> ListFees()
         {
             var request = new RestRequest("/fees", Method.GET);

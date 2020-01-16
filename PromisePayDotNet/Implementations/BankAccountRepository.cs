@@ -13,9 +13,7 @@ namespace PromisePayDotNet.Implementations
         public BankAccountRepository(IRestClient client) : base(client)
         {
         }
-
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+         
         public BankAccount GetBankAccountById(string bankAccountId)
         {
             AssertIdNotNull(bankAccountId);

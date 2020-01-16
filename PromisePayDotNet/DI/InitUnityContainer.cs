@@ -1,7 +1,8 @@
-﻿using Microsoft.Practices.Unity;
-using PromisePayDotNet.Implementations;
+﻿using PromisePayDotNet.Implementations;
 using PromisePayDotNet.Interfaces;
 using RestSharp;
+using Unity;
+using Unity.Injection;
 
 namespace PromisePayDotNet.DI
 {

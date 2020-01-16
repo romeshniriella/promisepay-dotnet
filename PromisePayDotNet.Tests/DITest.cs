@@ -1,7 +1,7 @@
-﻿using Microsoft.Practices.Unity;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using PromisePayDotNet.DI;
 using PromisePayDotNet.Interfaces;
+using Unity;
 
 namespace PromisePayDotNet.Tests
 {
